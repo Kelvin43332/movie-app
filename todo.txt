@@ -1,0 +1,14 @@
+Basic Requirement
+•	Your website should be a SPA that feels like a multi-page application, and should minimally contain the following features:
+a.	Movie Listing – To allow customers to view the list of movies 
+b.	Filter by Genre – To allow customers to view the list of movies by Genre
+c.	Movie Review Page – To allow customers to view the reviews of a movie
+d.	Leave a Comment – To allow customers to comment on a movie
+i.	Comments can disappear after you refresh page.
+
+Advanced Feature)
+a.	Fetching movie catalogue data from an external source
+b.	Remembering user’s filter preference even after closing the browser
+
+
+•	Connecting to backend server/database not required

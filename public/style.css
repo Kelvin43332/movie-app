@@ -1,0 +1,308 @@
+.mobile-only {
+    display: none;
+}
+
+.active > a {
+    cursor: default;
+}
+
+.toast {
+    position: absolute; top: 1; right: 68px; z-index: 3;
+}
+#content-container .row {
+    margin-bottom: 4rem;
+}
+
+#top-movie-all-time-container .row {
+    margin-bottom: 1rem;
+}
+.component-title {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#movie-banners__carousel-controller .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 60%;
+    height: 40%;
+}
+
+#movie-reviews__component {
+    height: 34rem;
+    overflow-y: scroll;
+}
+
+#movie-reviews__component td {
+    padding: 0;
+}
+
+#movie-reviews__review-table .movie-img {
+    width: 160px;
+    height: 120px;
+}
+
+#top-movie-all-time-container {
+}
+
+#top-movies__responsive-list{
+    
+}
+#top-movie-all-time-container .movie-img{
+    height: 56px;
+    width: 48px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+
+
+#calendar__component,#map__component,#event__component {
+    height: 30rem;
+}
+
+#calendar__day-table {
+    height: 22rem;
+}
+#calendar__calendar-box, #event__event-card {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+#calendar__calendar-box .fas {
+    line-height: unset;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#calendar__month-current, #calendar__year-current {
+    width: 8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#calendar__year-current {
+    font-size: 1.5rem;
+}
+
+#calendar__month-current {
+    font-size: 1.2rem;
+}
+
+.day-event-button {
+    cursor: pointer;
+    text-align: center;
+}
+
+.day-event-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.day-event-button.has-event {
+    background-color: cyan;
+    color: black;
+} 
+
+#googleMap {
+    width:100%;
+    height:100%;
+}
+
+#shop-container .card-img-top {
+    padding-top: 2rem;
+    height: 240px; 
+    width: 200px;
+}
+
+#shop-container .card-title {
+    height: 4rem;
+}
+.add-qty-btn, .minus-qty-btn{
+    border-top: 0px; cursor: pointer;
+}
+.qty-display {
+    border-top: 0px; 
+}
+.add-to-cart-btn {
+    color: white !important;
+}
+
+.checkout-cart-btn {
+    width: 200px; 
+    cursor: pointer;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .mobile-only {
+        display: unset !important;
+    }
+
+    .non-mobile-only {
+        display: none !important;
+    }
+
+
+    #movie-reviews__component {
+        height: initial;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    #movie-reviews__review-table {
+        width: 3800px;
+        display: inline-block; 
+    }
+
+    #movie-reviews__review-table tr {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+
+    #movie-reviews__review-table td {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 20ch;
+    }
+
+    #movie-reviews__review-table .btn {
+        margin-top: 0.1rem;
+    }
+
+    #content-container .row {
+        margin-bottom: 0rem;
+    }
+
+
+    #top-movie-all-time__component {
+        height: initial;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+
+    #top-movies__responsive-list {
+        width: 2800px;
+        height: initial;
+    }
+    #top-movies__responsive-list .row {
+        display: inline-block;
+        margin-right: 1.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 30ch;
+    }
+
+    #top-movies__responsive-list .badge {
+        width: 4rem;
+    }
+
+    #top-movie-all-time-container .movie-img {
+        width: 200px;
+        height: 160px;
+    }
+
+    .checkout-cart-btn {
+        width: 200px; 
+        cursor: pointer;
+        color: rgba(0,0,0,.5);
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .mobile-only {
+        display: unset !important;
+    }
+
+    .non-mobile-only {
+        display: none !important;
+    }
+
+
+    #movie-reviews__component {
+        height: initial;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    #movie-reviews__review-table {
+        width: 3800px;
+        display: inline-block; 
+    }
+
+    #movie-reviews__review-table tr {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+
+    #movie-reviews__review-table td {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 20ch;
+    }
+
+    #movie-reviews__review-table .btn {
+        margin-top: 0.1rem;
+    }
+
+    #content-container .row {
+        margin-bottom: 0rem;
+    }
+
+
+    #top-movie-all-time__component {
+        height: initial;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+
+    #top-movies__responsive-list {
+        width: 2800px;
+        height: initial;
+    }
+    #top-movies__responsive-list .row {
+        display: inline-block;
+        margin-right: 1.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 30ch;
+    }
+
+    #top-movie-all-time-container .movie-img {
+        width: 200px;
+        height: 160px;
+    }
+
+    .checkout-cart-btn {
+        width: 200px; 
+        cursor: pointer;
+        color: rgba(0,0,0,.5);
+    }
+  }
