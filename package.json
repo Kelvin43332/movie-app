@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-detached": "pm2 start PORT=5000 react-scripts start -- start",
+    "start-detached": "pm2 start react-scripts start -- start --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
