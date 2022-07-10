@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-detached": "PORT=5000 sudo pm2 start react-scripts start --name test-movieapp -- start",
-    "start-detached-deployed": "PORT=3000 sudo pm2 start react-scripts start --name deployed-movieapp -- start",
+    "start-detached": "PORT=5000 pm2 start react-scripts start --name test-movieapp -- start",
+    "start-detached-deployed": "PORT=3000 pm2 start react-scripts start --name deployed-movieapp -- start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
