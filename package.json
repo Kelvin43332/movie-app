@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-detached": "pm2 start react-scripts start -- start",
+    "start-detached": "pm2 restart react-scripts start -- start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
