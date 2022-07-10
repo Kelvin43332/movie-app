@@ -14,13 +14,13 @@ function Header(props) {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link" href="/">Reviews</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="planner">Planner</a>
+                <a className="nav-link" href="planner">Plan</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="shopping">Shop</a>
+                <a className="nav-link" href="shopping">Shopping</a>
                 </li>
             </ul>
             <div className="checkout-cart-btn" data-toggle="modal" data-target="#checkout-modal">
